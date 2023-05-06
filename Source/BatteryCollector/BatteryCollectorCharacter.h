@@ -76,7 +76,7 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
-	//按下C键拾取附近重叠的电池
+	//鎸変笅C閿嬀鍙栭檮杩戦噸鍙犵殑鐢垫睜
 	UFUNCTION(BlueprintCallable, Category = "Pickups")
 	void CollectPickups();
 
